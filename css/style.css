@@ -14,6 +14,20 @@ header {
   padding: 20px 0;
 }
 
+header a {
+  color: #a7d9f0;
+  text-decoration: none;
+}
+
+header a:hover {
+  text-decoration: underline;
+  color: #f33;
+}
+
+header ul {
+  list-style: none;
+}
+
 main {
   flex: 1;
   max-width: 1080px;
