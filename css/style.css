@@ -38,6 +38,10 @@ main {
   padding: 1em;
 }
 
+li {
+  margin-bottom: 5px;
+}
+
 article h2 {
   border-left: 10px solid #333;
   border-bottom: 1px solid #333;
