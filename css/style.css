@@ -65,3 +65,17 @@ footer {
   color: #a7d9f0;
   text-align: center;
 }
+
+/* index.htmlのリンクの装飾 */
+.deco a {
+  text-decoration: none;
+  color: #181a2f;
+  /* -webkit-text-stroke: 1px #333;
+  text-stroke: 1px #333;
+  font-weight: bold; */
+}
+
+.deco a:hover {
+  text-decoration: underline;
+  color: #f33;
+}
