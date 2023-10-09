@@ -1,9 +1,10 @@
 @charset "UTF-8";
 body {
-  font-size: 24px;
+  font-size: 16px;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: aliceblue;
 }
 
 header {
@@ -15,6 +16,28 @@ header {
 
 main {
   flex: 1;
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 1em;
+}
+
+article h2 {
+  border-left: 10px solid #333;
+  border-bottom: 1px solid #333;
+  padding-left: 0.5em;
+  margin: 10px 0;
+}
+
+.shortcut {
+  box-shadow: 5px 5px 5px #333;
+  padding: 3px;
+  background-color: rgb(126, 141, 157);
+  color: #fff;
+}
+
+.img-exp {
+  border: solid 1px #333;
 }
 
 footer {
