@@ -9,7 +9,7 @@ body {
 
 header {
   background-color: #333;
-  color: rgb(167, 217, 240);
+  color: #a7d9f0;
   text-align: center;
   padding: 20px 0;
 }
@@ -29,11 +29,17 @@ article h2 {
   margin: 10px 0;
 }
 
+section {
+  margin: 20px 0;
+  padding-bottom: 40px;
+}
+
 .shortcut {
   box-shadow: 5px 5px 5px #333;
   padding: 3px;
-  background-color: rgb(126, 141, 157);
-  color: #fff;
+  background-color: #a7d9f0;
+  color: #181a2f;
+  line-height: 2em;
 }
 
 .img-exp {
@@ -42,6 +48,6 @@ article h2 {
 
 footer {
   background-color: #333;
-  color: rgb(167, 217, 240);
+  color: #a7d9f0;
   text-align: center;
 }
