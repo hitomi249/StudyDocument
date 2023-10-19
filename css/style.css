@@ -89,3 +89,10 @@ footer {
 .search-option li {
   display: flex;
 }
+
+figure {
+  border-top: solid 2px #333;
+  border-bottom: solid 2px #333;
+  padding: 1em;
+  margin-top: 1em;
+}
