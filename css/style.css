@@ -85,3 +85,7 @@ footer {
   text-decoration: underline;
   color: #f33;
 }
+
+.search-option li {
+  display: flex;
+}
