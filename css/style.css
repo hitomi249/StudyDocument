@@ -96,3 +96,10 @@ figure {
   padding: 1em;
   margin-top: 1em;
 }
+
+kbd::before {
+  content: "[";
+}
+kbd::after {
+  content: "]";
+}
