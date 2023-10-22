@@ -96,3 +96,29 @@ figure {
   padding: 1em;
   margin-top: 1em;
 }
+
+/* 練習用 */
+
+.btn-link ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.btn-link li {
+  border: 1px solid #181a2f;
+  padding-inline: 2em;
+}
+
+.btn-link li.active {
+  background-color: blue;
+}
+
+.main>section {
+  display: none;
+}
+
+.main>section.active{
+  display: block;
+}
